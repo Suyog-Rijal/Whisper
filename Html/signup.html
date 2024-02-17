@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signup-container">
+            <div class="favicon">
+                <img src="../Assets/login-signup/favicon.png" alt="favicon">
+            </div>
+
+            <div class="form-container">
+                <form action="#">
+                    <h1>Sign Up</h1>
+
+                    <div class="username">
+                        <label>
+                            <input type="text" placeholder="First name">
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Last name">
+                        </label>
+                    </div>
+
+                    <label class="e-p">
+                        <input type="email" placeholder="Email">
+                    </label>
+
+                    <label class="e-p">
+                        <input type="password" placeholder="Password">
+                    </label>
+
+                    <p> Date of birth:</p>
+
+                    <div class="dob">
+                        <label for="month"></label><select id="month">
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+
+                        <label for="day"></label><select id="day">
+                        </select>
+
+                        <label for="year"></label><select id="year">
+                        </select>
+                    </div>
+
+                    <p>Gender:</p>
+
+                    <div class="gender">
+                        <label>
+                            <input type="radio" name="gender" value="male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="other"> Other
+                        </label>
+                    </div>
+
+                    <button type="submit">Sign Up</button>
+
+                    <p class="signup-login">Already have an account? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Js/date-picker.js"></script>
+
+</body>
+</html>

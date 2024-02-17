@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verification</title>
+    <link rel="stylesheet" href="../Css/verify.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="verify-container">
+
+            <button class="close">X</button>
+
+            <h1>VERIFY YOUR ACCOUNT</h1>
+
+            <div class="line"></div>
+
+            <h3><span>A verification code has been sent <br> to your email.</span></h3>
+
+            <p><span>Please check your inbox and enter the verification code <br> below to verify your email address.</span></p>
+
+            <div id="verificationInputs">
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" onkeyup="focusNext(this)" />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" onkeyup="focusNext(this)" />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" onkeyup="focusNext(this)" />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" onkeyup="focusNext(this)" />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" onkeyup="focusNext(this)" />
+                </label>
+                <label>
+                    <input type="text" maxlength="1" class="verification-input" />
+                </label>
+            </div>
+
+            <button id="verifyButton">Verify</button>
+
+            <p id="resendCode">Didn't receive the code? <a href="#">Resend code</a></p>
+
+        </div>
+    </div>
+</body>
+</html>

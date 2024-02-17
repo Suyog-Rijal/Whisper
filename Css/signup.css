@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.signup-container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 8vh 5vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f4c420;
+    padding: 1vh 5vh 5vh 5vh;
+    margin: 1vh;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.username input {
+    border: 1px solid #f4c420;
+    border-radius: 10px;
+    height: 6.5vh;
+    padding: 0 10px;
+    width: 25vh;
+    margin-bottom: 1vh;
+}
+
+.e-p input {
+    border: 1px solid #f4c420;
+    border-radius: 10px;
+    height: 6.5vh;
+    padding: 0 10px;
+    width: 54vh;
+    margin-bottom: 1vh;
+}
+
+p {
+    font-size: .7rem;
+    margin: 2vh 0 .5vh 0;
+}
+
+.dob #month,
+.dob #day,
+.dob #year {
+    border: 1px solid #f4c420;
+    border-radius: 10px;
+    height: 6.5vh;
+    padding: 0 2vh;
+    width: 18.5vh;
+}
+
+.dob #month,
+.dob #day,
+.dob #year:hover {
+    cursor: pointer;
+}
+
+
+button {
+    background-color: #f4c420;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 6.5vh;
+    width: 32vh;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #f4c420;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1vh 0 2vh 0;
+    align-self: center;
+}
+
+.gender {
+    padding-bottom: 2vh;
+}
+
+.gender input {
+    transform: scale(1.3);
+}
+
+.gender input:hover {
+    cursor: pointer;
+}
+
+.gender input:checked {
+    accent-color: black;
+}
+
+.gender label {
+    margin-right: 2vh;
+}
+
+.gender input:hover {
+    cursor: pointer;
+}
+
+.signup-login {
+    align-self: center;
+}
+
+.signup-login a {
+    color: #f4c420;
+    text-decoration: none;
+}
+
+.signup-login a:hover {
+    text-decoration: underline;
+}
+
+
+
